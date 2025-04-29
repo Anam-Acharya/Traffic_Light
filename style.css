@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #F0F7FF;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 420px;
+    height: 210px;
+}
+.box {
+    position: relative;
+    z-index: 1; 
+}
+body {
+    min-height: 100vh;
+}
+#box1{
+    height: 160px;
+    width: 50px;
+    background-color: #2D3E50;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#red1{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #E63F2C;
+}
+#yello1{
+    height: 30px;
+    width: 30px;
+    background-color: #EEFF03;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #EEFF03;
+}
+#green1{
+    height: 30px;
+    width: 30px;
+    background-color: #06FF59;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #06FF59;
+}
+#box2{
+    height: 160px;
+    width: 50px;
+    background-color: #2D3E50;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#red2{
+    height: 30px;
+    width: 30px;
+    background-color: #2D3E50;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #2D3E50;
+}
+#red2:hover{
+    background-color: red;
+    box-shadow: 0px 0px 20px #E63F2C;
+}
+#yello2{
+    height: 30px;
+    width: 30px;
+    background-color: #2D3E50;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #2D3E50;
+}
+#yello2:hover{
+    background-color: #EEFF03;
+    box-shadow: 0px 0px 20px #EEFF03;
+}
+#green2{
+    height: 30px;
+    width: 30px;
+    background-color: #2D3E50;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #2D3E50;
+}
+#green2:hover{
+    background-color: #06FF59;
+    box-shadow: 0px 0px 20px #06FF59;
+}
+#box3{
+    height: 160px;
+    width: 50px;
+    background-color: #2D3E50;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#red3{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #E63F2C;
+}
+#yello3{
+    height: 30px;
+    width: 30px;
+    background-color: #EEFF03;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #EEFF03;
+}
+#green3{
+    height: 30px;
+    width: 30px;
+    background-color: #06FF59;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #06FF59;
+}
